@@ -1,7 +1,7 @@
-cs010_practice
+cs012_practice
 ==============
 
-The CS010(v) practice repository is used to set up a students Cloud 9 public 
+The CS012(v) practice repository is used to set up a students Cloud 9 public 
 workspace to be used in collaboration with other students.
 
 The practice workspace has been created to provide a place for students to
