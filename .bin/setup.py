@@ -11,7 +11,7 @@ import sys
 from subprocess import call
 from time import sleep
 
-ENV_FILE_NAME = "ucrcsCS010__env"
+ENV_FILE_NAME = "ucrcs_env"
 CS010_BASHRC = "bashrc_cs010_defaults.sh"
 CS010_SOURCE_SCRIPT = "source_bash.sh"
 
@@ -103,7 +103,6 @@ while True:
             course_name = "CS012v"
         break
 env_file.write("export " + str(key) + "=\"" + str(course_name) + "\"" + "\n")
-
 
 
 # Acquire the R'Sub email
